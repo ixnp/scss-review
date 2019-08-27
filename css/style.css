@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr 5fr); }
+
+header {
+  grid-area: 1/1/2/-1; }
+
+aside {
+  grid-area: 2/1/-1/3;
+  margin-right: 3vw; }
+
+main {
+  grid-area: 2/3/-1/-1; }
+
+main section {
+  display: flex; }
+  main section div {
+    padding: 10px; }
+  main section img {
+    width: 150px;
+    height: 200px; }
+  main section .container-2 {
+    font-family: "Roboto", sans-serif;
+    color: #2e2e1f;
+    text-align: justify; }
+
+aside h3 {
+  font-family: "Roboto", sans-serif;
+  color: #2e2e1f;
+  text-align: justify;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: #cce6ff;
+  padding: 2vh;
+  border-radius: 0 45% 45% 0; }
+aside .container-comic {
+  text-align: center; }
+  aside .container-comic img {
+    width: 100px; }
+  aside .container-comic h3 {
+    display: none; }
+
+header {
+  margin: 8px; }
+  header h1 {
+    margin: 2vh;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 7.5vw; }
+  header h3 {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 5vh; }
+
+footer {
+  background: #cce6ff; }
+
+/*# sourceMappingURL=style.css.map */

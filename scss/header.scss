@@ -1,0 +1,15 @@
+
+header{
+    margin: 8px;
+    h1{
+        margin:2vh;
+        font-family: $font-headings;
+        font-size: 7.5vw;
+    }
+    h3{
+        display:flex;
+        flex-direction: row-reverse;
+        font-family: $font-text-primary;
+        margin-bottom: 5vh;
+    }
+}

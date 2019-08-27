@@ -1,0 +1,23 @@
+aside{
+    h3{
+        @include text($font-text-primary);
+        text-transform: uppercase;
+        font-weight: 900;
+        background: $color-background-headings;
+        padding:2vh;
+        border-radius: 0 45% 45% 0;
+    }
+    .container{
+            &-comic {
+                text-align: center;
+               
+               img {
+                   width:100px;
+               }
+               h3{
+                   display:none;
+               }
+            }
+        }
+    
+}
